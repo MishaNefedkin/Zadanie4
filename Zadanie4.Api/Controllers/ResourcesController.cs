@@ -33,4 +33,16 @@ public class ResourcesController : ControllerBase
         Resources.Remove(resource);
         return NoContent();
     }
+    [HttpPut("{id}")]
+    public IActionResult Update(int id, Resource updatedResource)
+    {
+        var resource = Resources.FirstOrDefault(r => r.Id == id);
+        if (resource == null)
+            return NotFound();
+
+        resource.Name = updatedResource.Name;
+        resource.Type = updatedResource.Type;
+
+        return Ok(resource);
+    }
 }
