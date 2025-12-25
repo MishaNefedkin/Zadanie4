@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie4.Api", "Zadanie4.Ap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie4.Sync", "Zadanie4.Sync\Zadanie4.Sync.csproj", "{7A1E70BF-0271-4B84-BD14-BB832B82E6AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie4.Ui", "Zadanie4.Ui\Zadanie4.Ui.csproj", "{0DC4ECB3-9DB9-47AE-8B87-73AA9551BA0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{7A1E70BF-0271-4B84-BD14-BB832B82E6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A1E70BF-0271-4B84-BD14-BB832B82E6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A1E70BF-0271-4B84-BD14-BB832B82E6AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DC4ECB3-9DB9-47AE-8B87-73AA9551BA0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DC4ECB3-9DB9-47AE-8B87-73AA9551BA0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DC4ECB3-9DB9-47AE-8B87-73AA9551BA0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DC4ECB3-9DB9-47AE-8B87-73AA9551BA0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
